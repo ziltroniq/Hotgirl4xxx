@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hotgirl4xxx</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+display:flex;
+height:100vh;
+overflow:hidden;
+}
+
+/* Sidebar */
+
+.sidebar{
+width:80px;
+background:#111827;
+display:flex;
+flex-direction:column;
+align-items:center;
+padding:20px 0;
+gap:20px;
+}
+
+.sidebar i{
+font-size:22px;
+padding:12px;
+border-radius:12px;
+cursor:pointer;
+transition:.3s;
+}
+
+.sidebar i:hover{
+background:#ec4899;
+}
+
+/* Main */
+
+.main{
+flex:1;
+display:flex;
+flex-direction:column;
+overflow:auto;
+}
+
+/* Header */
+
+.header{
+height:70px;
+background:linear-gradient(
+90deg,
+#ec4899,
+#8b5cf6
+);
+
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:0 30px;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+}
+
+.search{
+width:300px;
+padding:10px;
+border:none;
+border-radius:30px;
+outline:none;
+}
+
+/* Hero */
+
+.hero{
+height:350px;
+margin:20px;
+border-radius:25px;
+overflow:hidden;
+position:relative;
+background:url("https://images.unsplash.com/photo-1542751371-adc38448a05e")
+center/cover;
+}
+
+.overlay{
+position:absolute;
+inset:0;
+background:rgba(0,0,0,.55);
+}
+
+.hero-content{
+position:absolute;
+bottom:30px;
+left:30px;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:10px;
+}
+
+.hero p{
+color:#d1d5db;
+}
+
+/* Layout */
+
+.content{
+display:grid;
+grid-template-columns:2fr 1fr;
+gap:20px;
+padding:20px;
+}
+
+/* Gallery */
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:15px;
+}
+
+.card{
+background:#1e293b;
+border-radius:18px;
+overflow:hidden;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-6px);
+}
+
+.card img{
+width:100%;
+height:180px;
+object-fit:cover;
+}
+
+.card h3{
+padding:15px;
+}
+
+/* Action Panel */
+
+.panel{
+background:#111827;
+padding:25px;
+border-radius:25px;
+}
+
+.play-btn{
+width:100%;
+padding:18px;
+background:#ec4899;
+border:none;
+border-radius:50px;
+color:white;
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+}
+
+.play-btn:hover{
+opacity:.9;
+}
+
+.stats{
+margin-top:25px;
+}
+
+.stat{
+background:#1e293b;
+padding:15px;
+border-radius:15px;
+margin-bottom:10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="sidebar">
+<i class="fas fa-home"></i>
+<i class="fas fa-gamepad"></i>
+<i class="fas fa-fire"></i>
+<i class="fas fa-heart"></i>
+<i class="fas fa-user"></i>
+</div>
+
+<div class="main">
+
+<header class="header">
+<div class="logo">ZiltiQS Games</div>
+
+<input
+class="search"
+type="text"
+placeholder="Rechercher..."
+>
+</header>
+
+<section class="hero">
+<div class="overlay"></div>
+
+<div class="hero-content">
+<h1>Cyber Arena</h1>
+<p>Découvrez les meilleurs jeux et projets.</p>
+</div>
+</section>
+
+<div class="content">
+
+<div class="gallery">
+
+<div class="card">
+<img src="https://picsum.photos/500/300?1">
+<h3>Projet 1</h3>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/500/300?2">
+<h3>Projet 2</h3>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/500/300?3">
+<h3>Projet 3</h3>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/500/300?4">
+<h3>Projet 4</h3>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/500/300?5">
+<h3>Projet 5</h3>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/500/300?6">
+<h3>Projet 6</h3>
+</div>
+
+</div>
+
+<div class="panel">
+
+<button class="play-btn">
+JOUER MAINTENANT
+</button>
+
+<div class="stats">
+
+<div class="stat">
+🔥 12 500 utilisateurs
+</div>
+
+<div class="stat">
+⭐ 4.9/5 note moyenne
+</div>
+
+<div class="stat">
+🚀 Nouveautés chaque semaine
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+  </html>
