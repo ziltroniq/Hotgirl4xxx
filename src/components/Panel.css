@@ -1,0 +1,44 @@
+.panel {
+  background: #111827;
+  padding: 25px;
+  border-radius: 25px;
+  height: fit-content;
+}
+
+.play-btn {
+  width: 100%;
+  padding: 18px;
+  background: #ec4899;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.play-btn:hover {
+  opacity: 0.9;
+  background: #db2777;
+  transform: translateY(-2px);
+}
+
+.play-btn:active {
+  transform: translateY(0);
+}
+
+.stats {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stat {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 14px;
+  text-align: center;
+}
